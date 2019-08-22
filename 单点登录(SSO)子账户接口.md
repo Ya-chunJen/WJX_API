@@ -13,14 +13,14 @@
 
 请求方式：Get
 
-接口链接：www.wjx.cn/zunxiang/login.aspx?appid=&subuser=&moblie=&email=&roleId=&ts=&sign=
+接口链接：www.wjx.cn/zunxiang/login.aspx?appid=&subuser=&mobile=&email=&roleId=&ts=&sign=
 
 | 参数名  | 参数说明                                                     | 是否必须 |
 | ------- | ------------------------------------------------------------ | -------- |
 | appid   | 开发ID，需联系尊享版客服生成，生成后可以在多用户管理页面查看 | 是       |
 | appkey  | 开发秘钥，需联系尊享版客服生成，生成后可以在多用户管理页面查看 | 是       |
 | subuser | 创建子账户的用户名，请使用绝对唯一性字段                     | 是       |
-| moblie  | 创建子账户绑定的手机号码                                     | 否       |
+| mobile  | 创建子账户绑定的手机号码                                     | 否       |
 | email   | 创建子账户绑定的邮箱                                         | 否       |
 | roleId  | 创建子账户的角色，留空默认为“问卷管理员”                     | 否       |
 | ts      | 时间戳，如“1562812073”表示2019/7/11 10:27:53，有效期30秒     | 是       |
